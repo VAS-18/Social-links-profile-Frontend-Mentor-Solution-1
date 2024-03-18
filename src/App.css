@@ -1,0 +1,102 @@
+
+body{
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400,500,600,700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+.card{
+  margin-top: 10rem;
+  background-color:hsl(0, 0%, 12%);
+  padding: auto;
+  height: 45rem;
+  width: 30rem;
+  border-radius: 3%;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+img{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: 100px;
+  width: 100px;
+  border-radius:50% ;
+}
+
+.Name{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size:30px;
+  color: white;
+}
+.Place{
+  text-align: center;
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+.Tag{
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin-top: 30px;
+}
+
+
+.tab{
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  background-color:hsl(0, 0%, 20%);
+  padding-left: 75%;
+  padding-right: 75%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
+.tab:hover{
+  background-color:hsl(75, 94%, 57%);
+  color: black;
+}
